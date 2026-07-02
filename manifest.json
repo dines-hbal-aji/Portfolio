@@ -1,0 +1,18 @@
+{
+  "name": "Dinesh Balaji K - Full Stack Developer Portfolio",
+  "short_name": "Dinesh Portfolio",
+  "description": "Premium personal portfolio of Dinesh Balaji K, Full Stack Developer & AI Specialist.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#050816",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

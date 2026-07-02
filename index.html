@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Dinesh Balaji K | Senior Full Stack Developer & AI Specialist Portfolio</title>
+  <meta name="title" content="Dinesh Balaji K | Senior Full Stack Developer & AI Specialist Portfolio">
+  <meta name="description" content="Portfolio of Dinesh Balaji K - Senior Full Stack Developer specializing in MERN Stack, PHP, SQL, and AI Integrations. Explore projects, experience, and achievements.">
+  <meta name="keywords" content="Dinesh Balaji, Dinesh Balaji K, Full Stack Developer, MERN Stack, PHP Developer, SQL, AI Developer, RAG, Web Developer portfolio, Chennai Developer">
+  <meta name="author" content="Dinesh Balaji K">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dineshbalaji.techmerise.com/">
+  <meta property="og:title" content="Dinesh Balaji K | Senior Full Stack Developer & AI Specialist Portfolio">
+  <meta property="og:description" content="Explore the premium portfolio of Dinesh Balaji K, featuring MERN stack applications, PHP REST APIs, and advanced AI-integrated tools.">
+  <meta property="og:image" content="https://dineshbalaji.techmerise.com/assets/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://dineshbalaji.techmerise.com/">
+  <meta property="twitter:title" content="Dinesh Balaji K | Senior Full Stack Developer & AI Specialist Portfolio">
+  <meta property="twitter:description" content="Explore the premium portfolio of Dinesh Balaji K, featuring MERN stack applications, PHP REST APIs, and advanced AI-integrated tools.">
+  <meta property="twitter:image" content="https://dineshbalaji.techmerise.com/assets/og-image.png">
+
+  <!-- PWA & Apple Web App Tags -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#050816">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Dinesh Portfolio">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icon-192.png">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD Structured Data Schema for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dinesh Balaji K",
+    "jobTitle": "Full Stack Developer",
+    "url": "https://dineshbalaji.techmerise.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/dineshbalajik26",
+      "https://github.com/dines-hbal-aji"
+    ],
+    "knowsAbout": ["React.js", "Node.js", "Express.js", "MongoDB", "PHP", "MySQL", "Artificial Intelligence", "REST APIs"],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "The American College"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div class="reading-progress-bar" id="reading-bar" aria-hidden="true"></div>
+
+  <!-- 1. Premium Loading Screen -->
+  <div id="preloader" role="dialog" aria-modal="true" aria-label="System loading">
+    <div class="loader-logo" aria-hidden="true"><span>D</span></div>
+    <div class="loader-progress-container" aria-hidden="true">
+      <div class="loader-progress-bar"></div>
+    </div>
+    <div class="loader-percentage">0%</div>
+    <div class="loader-logs" aria-live="polite">Initializing portfolio nodes...</div>
+  </div>
+
+  <!-- Background Ambient Glow Circles -->
+  <div class="bg-glow-container" aria-hidden="true">
+    <div class="bg-glow-circle bg-glow-1"></div>
+    <div class="bg-glow-circle bg-glow-2"></div>
+    <div class="bg-glow-circle bg-glow-3"></div>
+  </div>
+
+  <!-- Custom Cursor Glow Element -->
+  <div class="cursor-glow" id="custom-cursor" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <nav id="header-nav">
+    <a href="#" class="nav-logo" id="logo-link">D.B.K</a>
+    <ul class="nav-links" id="menu-links">
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-controls">
+      <!-- Theme Switcher -->
+      <button class="btn-icon" id="theme-toggle" aria-label="Toggle light/dark theme"></button>
+      <!-- Audio Toggle Button -->
+      <button class="btn-icon" id="audio-toggle" aria-label="Toggle ambient music">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M23 9l-6 6M17 9l6 6"/></svg>
+      </button>
+      <!-- Mobile Menu Trigger -->
+      <div class="hamburger" id="nav-burger" aria-label="Toggle menu" role="button" aria-expanded="false" aria-controls="menu-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. Hero Section -->
+  <section id="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-content hero-fade-in" style="opacity: 0; transform: translateY(20px); transition: all 0.6s ease;">
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Dinesh Balaji K</span>
+          <span class="typewriter-container">
+            <span class="typewriter-text">MERN Stack Developer</span><span class="typewriter-cursor">|</span>
+          </span>
+        </h1>
+        <div class="hero-badge" style="margin-top: 10px; margin-bottom: 15px;">
+          <span></span> Open for Opportunities
+        </div>
+        <div class="hero-location-pill">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+          Based in Chennai / Madurai • Open to relocate PAN Tamil Nadu
+        </div>
+        <p class="hero-description">
+          A results-driven Full Stack Developer specializing in building high-performance MERN Stack apps, secure PHP & SQL services, and custom AI/LLM solutions. Transforming ideas into pixel-perfect, scalable web architectures.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <!-- Link to direct resume download placeholder -->
+          <a href="./assets/dinesh_balaji_resume.pdf" download class="btn btn-secondary" id="resume-download-btn">
+            Download Resume
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/dineshbalajik26" target="_blank" class="btn-icon" aria-label="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com/dines-hbal-aji" target="_blank" class="btn-icon" aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-visual hero-fade-in" style="opacity: 0; transform: translateY(20px); transition: all 0.6s ease; transition-delay: 0.2s;">
+        <!-- Laptop Coding Environment Mockup -->
+        <div class="laptop-mockup">
+          <div class="laptop-notch"></div>
+          <div class="laptop-screen">
+<span style="color:#ff79c6">const</span> developer = {
+  name: <span style="color:#f1fa8c">"Dinesh Balaji K"</span>,
+  stack: [<span style="color:#f1fa8c">"MERN"</span>, <span style="color:#f1fa8c">"PHP"</span>, <span style="color:#f1fa8c">"SQL"</span>, <span style="color:#f1fa8c">"AI"</span>],
+  mission: <span style="color:#f1fa8c">"Build premium digital products"</span>,
+  hoursCoded: <span style="color:#50fa7b">&gt;1000</span>
+};
+
+<span style="color:#6272a4">// Running compiler diagnostics...</span>
+<span style="color:#50fa7b">console</span>.log(<span style="color:#f1fa8c">"Hello World! Welcome to my space."</span>);
+<span style="color:#8b5cf6">Ready to create scalable products.</span>
+          </div>
+          <div class="laptop-base"></div>
+        </div>
+        <!-- Floating holograms of Tech stack elements -->
+        <div class="floating-tech-nodes" aria-hidden="true">
+          <div class="tech-node react">React</div>
+          <div class="tech-node node">Node.js</div>
+          <div class="tech-node mongo">MongoDB</div>
+          <div class="tech-node ai">AI/RAG</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scroll Down mouse indicator -->
+    <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+      <span></span>
+      Scroll Down
+    </a>
+  </section>
+
+  <!-- 3. Statistics Section -->
+  <section id="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-num" data-target="8">0</div>
+        <div class="stat-label">Seminars Organized</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="7">0</div>
+        <div class="stat-label">Workshops Organized</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="1">0</div>
+        <div class="stat-label">GenAI Hackathons</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="20">0+</div>
+        <div class="stat-label">Certificates Earned</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="10">0+</div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="1000">0+</div>
+        <div class="stat-label">Coding Hours</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. About Me -->
+  <section id="about" class="reveal-element">
+    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+    <p class="subtitle">A brief overview of my engineering journey and career vision.</p>
+    
+    <div class="container about-grid">
+      <div class="about-bio">
+        <div class="glass-card" style="text-align: center;">
+          <div class="profile-pic-container" style="width: 140px; height: 140px; border-radius: 50%; border: 3px solid var(--primary); margin: 0 auto 20px auto; overflow: hidden; box-shadow: 0 0 20px rgba(255, 179, 0, 0.25); position: relative; background: var(--bg-secondary); display: flex; align-items: center; justify-content: center;">
+            <img src="assets/profile.png" alt="Dinesh Balaji K" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 2;">
+            <div class="profile-placeholder" style="width: 100%; height: 100%; display: none; align-items: center; justify-content: center; color: var(--primary);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+          </div>
+          <h3>Dinesh Balaji Kannan</h3>
+          <p style="color:var(--primary); font-weight: 600; margin-bottom: 15px;">Full Stack Engineer & AI Enthusiast</p>
+          <p>
+            I am a passionate Computer Science graduate and Full Stack Developer with hands-on experience building structured database schemas, secure APIs, and dynamic frontend web applications. I believe that writing code should combine clean architectures and premium interfaces that deliver exceptional user experiences.
+          </p>
+          <p style="margin-top: 15px;">
+            <b>My Vision:</b> To build intelligent, scalable systems that simplify lives, resolve business inefficiencies, and leverage the power of Artificial Intelligence inside modern web architectures.
+          </p>
+        </div>
+      </div>
+      
+      <div class="about-timeline">
+        <h3 style="margin-bottom: 25px; font-size: 1.5rem;">Academic & Career Timeline</h3>
+        <div class="timeline">
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Jun 2023</div>
+            <h4 class="timeline-title">Started B.Sc. Computer Science</h4>
+            <p class="timeline-desc">Joined The American College, Madurai. Focused on object-oriented programming, data structures, and database principles.</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Sep 2024 - Dec 2025</div>
+            <h4 class="timeline-title">Freelancing & Department Leadership</h4>
+            <p class="timeline-desc">Served as Batch Representative. Developed and deployed a production e-commerce catalog platform for Surya Cotton Textiles.</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Apr 2025 - Jun 2025</div>
+            <h4 class="timeline-title">Full Stack Internship - Dividend Screen</h4>
+            <p class="timeline-desc">Engineered user interface panels and optimized PHP/MySQL REST APIs, reducing overall page load times by 30%.</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Sep 2025 - Feb 2026</div>
+            <h4 class="timeline-title">Lead Organizer - GenAI Hackathon 2K26</h4>
+            <p class="timeline-desc">Directed a multi-day hackathon for 350+ candidates and built a localized LLM syllabus helper tool, earning the Leadership Excellence award.</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">Ongoing</div>
+            <h4 class="timeline-title">Advanced MERN Training & Incubation</h4>
+            <p class="timeline-desc">Enhancing MERN Stack and AI capabilities at Besant Technologies, Velachery, preparing for full-time Software Engineer positions.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Skills Section -->
+  <section id="skills" class="reveal-element">
+    <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+    <p class="subtitle">A visual representation of my technology stacks and proficiency levels.</p>
+    
+    <div class="container skills-container">
+      <!-- Frontend Skills -->
+      <div class="skills-category glass-card">
+        <h3>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Frontend Stack
+        </h3>
+        <div class="skill-list">
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">React.js</span><span class="skill-val">90%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">JavaScript (ES6+)</span><span class="skill-val">95%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">Vue.js</span><span class="skill-val">75%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 75%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">Tailwind CSS / Bootstrap</span><span class="skill-val">92%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend Skills -->
+      <div class="skills-category glass-card">
+        <h3>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+          Backend & Databases
+        </h3>
+        <div class="skill-list">
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">Node.js / Express</span><span class="skill-val">88%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 88%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">PHP / CRUD APIs</span><span class="skill-val">90%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">MySQL (Schema, Normalization)</span><span class="skill-val">85%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">MongoDB / Mongoose</span><span class="skill-val">82%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 82%;"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI & Emerging Tools -->
+      <div class="skills-category glass-card">
+        <h3>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--highlight)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          AI & Tooling
+        </h3>
+        <div class="skill-list">
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">Local LLMs (LM Studio)</span><span class="skill-val">85%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">RAG (FAISS Indexing)</span><span class="skill-val">80%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 80%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">Git & GitHub</span><span class="skill-val">90%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span class="skill-name">VS Code / Postman</span><span class="skill-val">95%</span></div>
+            <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 95%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Services Section -->
+  <section id="services" class="reveal-element">
+    <h2 class="section-title">What I <span class="gradient-text">Offer</span></h2>
+    <p class="subtitle">Comprehensive digital solutions built with reliability and scalability in mind.</p>
+    
+    <div class="container services-grid">
+      <div class="glass-card service-card">
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h3>Web Application Development</h3>
+        <p>Designing modern, responsive interfaces and single-page applications utilizing React or Vue.js integrated with smooth interactive assets.</p>
+      </div>
+
+      <div class="glass-card service-card">
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+        </div>
+        <h3>REST API Engineering</h3>
+        <p>Creating fast, parameterized backend routing networks using Express.js or PHP with token-based JWT security and session authorization gates.</p>
+      </div>
+
+      <div class="glass-card service-card">
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 0-7.54 16.59c.2-.2.44-.3.7-.3h13.67c.27 0 .5.1.7.3A10 10 0 0 0 12 2z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3>AI Integration & RAG</h3>
+        <p>Combining local large language models (LLMs) with custom documents (RAG pipelines) and vector database indexes (FAISS) to build offline study assistants and chatbots.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Tech Stack Visualization (Canvas Node Graph) -->
+  <section id="tech-graph-section" class="reveal-element">
+    <h2 class="section-title">Tech Network <span class="gradient-text">Visualization</span></h2>
+    <p class="subtitle">Interactive physical connection node map of my core technology layers. Try moving your cursor over the graph!</p>
+    
+    <div class="container">
+      <div class="tech-graph-container">
+        <div class="graph-overlay-text">
+          <span></span> Graph Diagnostics: ACTIVE
+        </div>
+        <canvas id="tech-canvas"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Featured Projects -->
+  <section id="projects" class="reveal-element">
+    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+    <p class="subtitle">Explore deep case studies of software solutions I've architected and shipped.</p>
+    
+    <div class="container">
+      <!-- Search & Filter Bar -->
+      <div class="projects-controls">
+        <div class="search-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="project-search" placeholder="Search by tech or title (e.g. AI, MySQL)..." aria-label="Search projects">
+        </div>
+        
+        <div class="filter-tags">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="React">React</button>
+          <button class="filter-btn" data-filter="PHP">PHP</button>
+          <button class="filter-btn" data-filter="AI">AI/LLM</button>
+          <button class="filter-btn" data-filter="MySQL">MySQL</button>
+          <button class="filter-btn" data-filter="MongoDB">MongoDB</button>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        
+        <!-- ColorHub -->
+        <div class="project-card-container" data-tags="HTML5 JavaScript Python">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%; background:#0a0e1c;">
+                <rect x="30" y="30" width="340" height="140" rx="8" fill="#111629" stroke="var(--primary)" stroke-width="2"/>
+                <circle cx="90" cy="100" r="30" fill="#FF5F56" opacity="0.8"/>
+                <circle cx="200" cy="100" r="30" fill="#00D084" opacity="0.8"/>
+                <circle cx="310" cy="100" r="30" fill="#8B5CF6" opacity="0.8"/>
+                <path d="M170 150 H230" stroke="var(--highlight)" stroke-width="3" stroke-linecap="round"/>
+                <text x="200" y="165" fill="#fff" font-family="Inter" font-size="10" font-weight="bold" text-anchor="middle">Concurrent Lock Resolver</text>
+              </svg>
+            </div>
+            <div class="project-meta-info">
+              <span class="exp-date">Web Application</span>
+              <span class="tag">Python / JS</span>
+            </div>
+            <h3 class="project-title">ColorHub</h3>
+            <p class="project-desc">A color reservation platform for interior design. Resolves database conflicts server-side when multiple users try to reserve the same shade simultaneously.</p>
+            <div class="project-footer">
+              <button onclick="openCaseStudy('colorhub')" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">View Case Study</button>
+              <div class="project-links">
+                <a href="https://github.com/dines-hbal-aji" target="_blank" class="btn-icon" aria-label="GitHub Link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EduCMS -->
+        <div class="project-card-container" data-tags="HTML5 JavaScript Python MySQL">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%; background:#0a0e1c;">
+                <rect x="50" y="30" width="300" height="140" rx="8" fill="#111629" stroke="var(--primary)" stroke-width="2"/>
+                <rect x="70" y="55" width="110" height="90" rx="4" fill="rgba(79, 140, 255, 0.1)"/>
+                <rect x="220" y="55" width="110" height="90" rx="4" fill="rgba(0, 208, 132, 0.1)"/>
+                <text x="125" y="105" fill="#fff" font-family="Inter" font-size="11" font-weight="bold" text-anchor="middle">Instructors</text>
+                <text x="275" y="105" fill="#fff" font-family="Inter" font-size="11" font-weight="bold" text-anchor="middle">Students</text>
+                <text x="200" y="45" fill="var(--text-secondary)" font-family="Inter" font-size="10" text-anchor="middle">Role-Based Access</text>
+              </svg>
+            </div>
+            <div class="project-meta-info">
+              <span class="exp-date">CMS Platform</span>
+              <span class="tag">MySQL schema</span>
+            </div>
+            <h3 class="project-title">EduCMS</h3>
+            <p class="project-desc">Academic course manager featuring normalized SQL databases (3NF), automated enrollments, and distinct views for students and instructors.</p>
+            <div class="project-footer">
+              <button onclick="openCaseStudy('educms')" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">View Case Study</button>
+              <div class="project-links">
+                <a href="https://github.com/dines-hbal-aji" target="_blank" class="btn-icon" aria-label="GitHub Link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Omnium -->
+        <div class="project-card-container" data-tags="Python Flask AI LLM">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%; background:#0a0e1c;">
+                <rect x="50" y="30" width="300" height="140" rx="10" fill="#111629" stroke="var(--primary)" stroke-width="2"/>
+                <circle cx="130" cy="100" r="25" fill="rgba(79, 140, 255, 0.2)" stroke="var(--primary)" stroke-width="2"/>
+                <circle cx="270" cy="100" r="25" fill="rgba(139, 92, 246, 0.2)" stroke="var(--accent)" stroke-width="2"/>
+                <path d="M155 100 H245" stroke="var(--highlight)" stroke-width="3" stroke-dasharray="5 5"/>
+                <text x="130" y="105" fill="#fff" font-family="Inter" font-size="10" font-weight="bold" text-anchor="middle">Syllabus</text>
+                <text x="270" y="105" fill="#fff" font-family="Inter" font-size="10" font-weight="bold" text-anchor="middle">LM Studio</text>
+                <text x="200" y="70" fill="var(--highlight)" font-family="monospace" font-size="12" text-anchor="middle">Offline Pipeline</text>
+              </svg>
+            </div>
+            <div class="project-meta-info">
+              <span class="exp-date">AI Assistant</span>
+              <span class="tag">Local LLM</span>
+            </div>
+            <h3 class="project-title">Omnium</h3>
+            <p class="project-desc">AI study assistant structuring raw syllabus files into detailed JSON courses, operating 100% offline via local inference parameters.</p>
+            <div class="project-footer">
+              <button onclick="openCaseStudy('omnium')" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">View Case Study</button>
+              <div class="project-links">
+                <a href="https://github.com/dines-hbal-aji/Omnium" target="_blank" class="btn-icon" aria-label="GitHub Link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Socon -->
+        <div class="project-card-container" data-tags="PHP MySQL">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%; background:#0a0e1c;">
+                <rect x="70" y="30" width="260" height="140" rx="8" fill="#111629" stroke="var(--accent)" stroke-width="2"/>
+                <path d="M120 70 H280" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+                <path d="M120 100 H280" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+                <path d="M120 130 H220" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+                <rect x="250" y="115" width="50" height="30" rx="4" fill="rgba(0, 208, 132, 0.2)" stroke="var(--success)" stroke-width="1.5"/>
+                <text x="275" y="133" fill="var(--success)" font-family="Inter" font-size="8" font-weight="bold" text-anchor="middle">SECURE</text>
+              </svg>
+            </div>
+            <div class="project-meta-info">
+              <span class="exp-date">Security Build</span>
+              <span class="tag">PHP / SQL</span>
+            </div>
+            <h3 class="project-title">Socon</h3>
+            <p class="project-desc">A full-stack PHP portal showcasing secure fundamentals: parameterized SQLi protection, session hashing, and CRUD templates.</p>
+            <div class="project-footer">
+              <button onclick="openCaseStudy('socon')" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">View Case Study</button>
+              <div class="project-links">
+                <a href="https://github.com/dines-hbal-aji" target="_blank" class="btn-icon" aria-label="GitHub Link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fitness-Pro -->
+        <div class="project-card-container" data-tags="Vue.js Flask MongoDB">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%; background:#0a0e1c;">
+                <circle cx="200" cy="100" r="50" stroke="rgba(255,255,255,0.05)" stroke-width="8"/>
+                <path d="M200 50 A50 50 0 0 1 250 100" stroke="var(--primary)" stroke-width="8" stroke-linecap="round"/>
+                <text x="200" y="105" fill="#fff" font-family="Inter" font-size="12" font-weight="bold" text-anchor="middle">Fitness-Pro</text>
+                <text x="200" y="125" fill="var(--success)" font-family="monospace" font-size="9" text-anchor="middle">Calorie Tracker</text>
+              </svg>
+            </div>
+            <div class="project-meta-info">
+              <span class="exp-date">Web Application</span>
+              <span class="tag">MongoDB</span>
+            </div>
+            <h3 class="project-title">Fitness-Pro</h3>
+            <p class="project-desc">A MyFitnessPal-style tracker built for students to log meals and workouts. Uses Vue client and Flask routing over flexible Mongo schemas.</p>
+            <div class="project-footer">
+              <button onclick="openCaseStudy('fitpro')" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">View Case Study</button>
+              <div class="project-links">
+                <a href="https://github.com/dines-hbal-aji" target="_blank" class="btn-icon" aria-label="GitHub Link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Surya Cotton Textiles E-Commerce -->
+        <div class="project-card-container" data-tags="PHP MySQL E-Commerce">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%; background:#0a0e1c;">
+                <rect x="30" y="30" width="340" height="140" rx="6" fill="#111629" stroke="var(--accent)" stroke-width="2"/>
+                <line x1="30" y1="60" x2="370" y2="60" stroke="var(--accent)" stroke-width="1"/>
+                <rect x="50" y="80" width="80" height="70" rx="4" fill="rgba(139, 92, 246, 0.1)"/>
+                <rect x="150" y="80" width="80" height="70" rx="4" fill="rgba(139, 92, 246, 0.1)"/>
+                <rect x="250" y="80" width="80" height="70" rx="4" fill="rgba(139, 92, 246, 0.1)"/>
+                <text x="200" y="48" fill="#fff" font-family="Inter" font-size="11" font-weight="bold" text-anchor="middle">sales.suryacotton.com</text>
+                <text x="200" y="115" fill="var(--text-secondary)" font-family="Inter" font-size="10" text-anchor="middle">Cart &amp; Order Backend</text>
+              </svg>
+            </div>
+            <div class="project-meta-info">
+              <span class="exp-date">Production Store</span>
+              <span class="tag">PHP / MySQL</span>
+            </div>
+            <h3 class="project-title">Surya Cotton Textiles E-Commerce</h3>
+            <p class="project-desc">Live production store serving 100+ cotton product SKUs. Built SQL tables and PHP routes mapping catalogs, baskets, checkouts, and sales metrics.</p>
+            <div class="project-footer">
+              <button onclick="openCaseStudy('suryacotton')" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">View Case Study</button>
+              <div class="project-links">
+                <a href="http://sales.suryacotton.com" target="_blank" class="btn-icon" aria-label="Live Demo Link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Case Study Lightbox Modal -->
+  <div class="modal" id="case-study-modal" role="dialog" aria-modal="true" aria-label="Project Case Study Detail">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('case-study-modal')" aria-label="Close modal">×</button>
+      <h3 class="case-study-title gradient-text">Case Study</h3>
+      <div class="case-study-grid">
+        <div class="case-study-section">
+          <h4>💡 The Problem</h4>
+          <p class="cs-problem">Problem description goes here.</p>
+        </div>
+        <div class="case-study-section">
+          <h4>🔧 The Solution</h4>
+          <p class="cs-solution">Solution details go here.</p>
+        </div>
+        <div class="case-study-section">
+          <h4>🌐 Architecture</h4>
+          <p class="cs-arch">Architecture details.</p>
+        </div>
+        <div class="case-study-section">
+          <h4>💾 Database Schema</h4>
+          <p class="cs-db">Database details.</p>
+        </div>
+        <div class="case-study-section">
+          <h4>📡 API Design</h4>
+          <p class="cs-api">API details.</p>
+        </div>
+        <div class="case-study-section">
+          <h4>📈 Results & Impact</h4>
+          <p class="cs-results">Results metrics.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Experience Section -->
+  <section id="experience" class="reveal-element">
+    <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+    <p class="subtitle">A detailed look at my professional engineering and team leadership roles.</p>
+    
+    <div class="container exp-timeline">
+      <!-- Intern Dividend Screen -->
+      <div class="exp-card glass-card">
+        <div class="exp-meta">
+          <span class="exp-date">Apr 2025 – Jun 2025</span>
+          <span class="exp-company">Dividend Screen</span>
+          <span class="exp-location">Remote Internship</span>
+        </div>
+        <div class="exp-detail">
+          <h3>Full Stack Developer Intern</h3>
+          <p>Worked with JavaScript, PHP, and MySQL databases to build custom modules and optimize web services.</p>
+          <ul>
+            <li>Engineered front-end panels and back-end REST routing nodes, reducing page load latency by 30%.</li>
+            <li>Created dynamic content modules for user-facing applications, increasing session duration by 25%.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Performance Tuning</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Freelance -->
+      <div class="exp-card glass-card">
+        <div class="exp-meta">
+          <span class="exp-date">Sep 2025 – Dec 2025</span>
+          <span class="exp-company">Surya Cotton Textiles</span>
+          <span class="exp-location">Contract Developer</span>
+        </div>
+        <div class="exp-detail">
+          <h3>Freelance Full Stack Developer</h3>
+          <p>Architected and launched a fully production-ready e-commerce database catalog.</p>
+          <ul>
+            <li>Engineered normalized schemas and PHP APIs mapping catalog elements, cutting order admin processing by 40%.</li>
+            <li>Integrated secure payment checkouts and customized transaction logic under high request safety constraints.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Schema Design</span>
+            <span class="tag">E-Commerce</span>
+            <span class="tag">Transactional Logic</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hackathon leadership -->
+      <div class="exp-card glass-card">
+        <div class="exp-meta">
+          <span class="exp-date">Sep 2025 – Feb 2026</span>
+          <span class="exp-company">The American College</span>
+          <span class="exp-location">Madurai, TN</span>
+        </div>
+        <div class="exp-detail">
+          <h3>Lead Organizer — GenAI Hackathon 2K26</h3>
+          <p>Managed technical logistics and administrative infrastructure for a major regional hackathon.</p>
+          <ul>
+            <li>Directed a 130-day technical plan supporting 350+ developers and 80+ team submissions with 100% server uptime.</li>
+            <li>Developed and pitched a local MERN/Python vector search educational helper, winning the Certificate of Leadership Excellence.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag">Project Management</span>
+            <span class="tag">System Infrastructure</span>
+            <span class="tag">MERN Stack</span>
+            <span class="tag">Local LLMs</span>
+            <span class="tag">Leadership</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. GitHub Statistics -->
+  <section id="github-stats" class="reveal-element">
+    <h2 class="section-title">GitHub <span class="gradient-text">Statistics</span></h2>
+    <p class="subtitle">Reviewing my open-source code commits and repository activity.</p>
+    
+    <div class="container github-grid glass-card">
+      <div class="github-stats-cards">
+        <div class="github-stat-card glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          <h4 id="github-repos-count">18</h4>
+          <p>Public Repositories</p>
+        </div>
+        <div class="github-stat-card glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <h4 id="github-followers-count">15</h4>
+          <p>Followers</p>
+        </div>
+        <div class="github-stat-card glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <h4 id="github-stars-count">6</h4>
+          <p>Total Stars</p>
+        </div>
+        <div class="github-stat-card glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <h4>1000+</h4>
+          <p>Coding Hours</p>
+        </div>
+      </div>
+      
+      <div class="github-chart-container">
+        <div class="github-contrib-header">
+          <span>Contributions (Generated Visual Calendar Representation)</span>
+          <span>github.com/dines-hbal-aji</span>
+        </div>
+        <!-- visual mock grid of contribution cells -->
+        <div class="github-calendar" id="calendar-grid">
+          <!-- Calendar cells are dynamically populated here using js densities -->
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-1"></div>
+          <div class="calendar-cell density-2"></div>
+          <div class="calendar-cell density-0"></div>
+          <div class="calendar-cell density-3"></div>
+          <div class="calendar-cell density-4"></div>
+          <div class="calendar-cell density-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. Achievements & Awards Timeline -->
+  <section id="achievements" class="reveal-element">
+    <h2 class="section-title">Awards & <span class="gradient-text">Achievements</span></h2>
+    <p class="subtitle">A list of technical and cultural awards earned during various competitions.</p>
+    
+    <div class="container achievements-grid">
+      
+      <div class="glass-card achievement-card">
+        <div class="achievement-tag">BYTES 2K26 / 2K25</div>
+        <h3 style="margin-bottom:10px;">Overall Trophy Champions</h3>
+        <p style="color:var(--text-secondary); font-size:0.95rem;">Won overall cultural and technical events winner trophies across multiple regional college technical fests.</p>
+      </div>
+
+      <div class="glass-card achievement-card">
+        <div class="achievement-tag">Paper Presentation</div>
+        <h3 style="margin-bottom:10px;">1st Prize Winner</h3>
+        <p style="color:var(--text-secondary); font-size:0.95rem;">Presented and placed first on research topics regarding Blockchain security, Local LLMs, and Cryptocurrency dynamics.</p>
+      </div>
+
+      <div class="glass-card achievement-card">
+        <div class="achievement-tag">Web Development</div>
+        <h3 style="margin-bottom:10px;">1st Prize Winner</h3>
+        <p style="color:var(--text-secondary); font-size:0.95rem;">Built and deployed winning full-stack portal solutions in constrained timelines under judge inspections.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 13. Certificates Gallery Hub -->
+  <section id="certificates" class="reveal-element">
+    <h2 class="section-title">Certifications <span class="gradient-text">Gallery</span></h2>
+    <p class="subtitle">Review official verified course certificates and internship letters.</p>
+    
+    <div class="container">
+      <div class="projects-controls">
+        <div class="filter-tags" style="margin: 0 auto;">
+          <button class="filter-btn active cert-tab" onclick="filterCertificates('all')">All</button>
+          <button class="filter-btn cert-tab" onclick="filterCertificates('intern')">Internship</button>
+          <button class="filter-btn cert-tab" onclick="filterCertificates('leadership')">Leadership</button>
+          <button class="filter-btn cert-tab" onclick="filterCertificates('training')">MERN Training</button>
+          <button class="filter-btn cert-tab" onclick="filterCertificates('events')">Technical Events</button>
+        </div>
+      </div>
+
+      <div class="certificates-grid">
+        <!-- Dividend Screen Internship -->
+        <div class="certificate-card-container" data-category="intern">
+          <div class="glass-card certificate-card" onclick="openCertificate('assets/cert_dividend.png', 'Full Stack Internship Letter - Dividend Screen')">
+            <div class="certificate-thumb">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>
+            </div>
+            <div class="certificate-body">
+              <h3 class="certificate-title">Internship Completion Letter</h3>
+              <p class="certificate-issuer">Dividend Screen (Remote)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Leadership -->
+        <div class="certificate-card-container" data-category="leadership">
+          <div class="glass-card certificate-card" onclick="openCertificate('assets/cert_leadership.png', 'Certificate of Leadership Excellence - GenAI Hackathon 2K26')">
+            <div class="certificate-thumb">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg>
+            </div>
+            <div class="certificate-body">
+              <h3 class="certificate-title">Leadership Excellence Award</h3>
+              <p class="certificate-issuer">GenAI Hackathon 2K26</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- MERN Training -->
+        <div class="certificate-card-container" data-category="training">
+          <div class="glass-card certificate-card" onclick="openCertificate('assets/cert_mern.png', 'MERN Stack Development Training - Besant Technologies')">
+            <div class="certificate-thumb">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="certificate-body">
+              <h3 class="certificate-title">Advanced MERN Stack</h3>
+              <p class="certificate-issuer">Besant Technologies, Velachery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zoom Preview Modal for Certificates -->
+  <div class="modal" id="cert-modal" role="dialog" aria-modal="true" aria-label="Certificate Image Preview">
+    <div class="modal-content" style="max-width: 650px; padding: 25px; text-align: center;">
+      <button class="modal-close" onclick="closeModal('cert-modal')" aria-label="Close modal">×</button>
+      <h4 style="margin-bottom:15px; color:var(--text-color);">Certificate Preview</h4>
+      <!-- Displaying fallback custom vector graphic inside modal if missing files -->
+      <div style="background: var(--bg-color); border-radius:8px; overflow:hidden; padding:20px; border: 1px solid var(--card-border);">
+        <img id="cert-modal-img" src="" alt="Certificate" style="max-width:100%; height:auto; border-radius:4px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+      </div>
+      <a href="#" download id="cert-download-link" class="btn btn-primary" style="margin-top: 15px; width:100%; justify-content:center;">
+        Download Certificate
+      </a>
+    </div>
+  </div>
+
+  <!-- 14. Education Section -->
+  <section id="education" class="reveal-element">
+    <h2 class="section-title">Education <span class="gradient-text">History</span></h2>
+    <p class="subtitle">My formal academic curriculum and key studies.</p>
+    
+    <div class="container exp-timeline">
+      
+      <div class="exp-card glass-card">
+        <div class="exp-meta">
+          <span class="exp-date">Jun 2023 – May 2026</span>
+          <span class="exp-company">B.Sc. Computer Science</span>
+          <span class="exp-location">GPA: 7.9 / 10</span>
+        </div>
+        <div class="exp-detail">
+          <h3>The American College</h3>
+          <p style="color: var(--primary); font-weight:600;">Madurai, Tamil Nadu, India</p>
+          <p style="margin-top:10px;">
+            <b>Core Coursework:</b> Programming Languages (C++, JavaScript, Python, PHP), Database Management Systems (SQL), Operating Systems, Software Engineering, Networks, AI Foundations.
+          </p>
+          <p style="margin-top:10px;">
+            <b>Leadership roles:</b> Batch Representative and Computer Science Department Undergraduate Association Member. Managed student hackathons, workshops, and organized guest speaker seminars.
+          </p>
+        </div>
+      </div>
+
+      <div class="exp-card glass-card">
+        <div class="exp-meta">
+          <span class="exp-date">Jun 2022 – May 2023</span>
+          <span class="exp-company">Higher Secondary School</span>
+          <span class="exp-location">State Board</span>
+        </div>
+        <div class="exp-detail">
+          <h3>Pansy Vidyalaya Matriculation HSS</h3>
+          <p style="color: var(--primary); font-weight:600;">Madurai, Tamil Nadu, India</p>
+          <p style="margin-top:10px;">
+            Completed higher secondary education specializing in Computer Science, Mathematics, and Physics fields.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 15. Testimonials Section -->
+  <section id="testimonials" class="reveal-element">
+    <h2 class="section-title">Testimonials & <span class="gradient-text">Feedback</span></h2>
+    <p class="subtitle">What engineering mentors, clients, and professors say about collaborating with me.</p>
+    
+    <div class="container testimonials-slider-container">
+      <div class="testimonials-track" id="testimonial-track">
+        
+        <div class="testimonial-slide">
+          <div class="glass-card testimonial-card">
+            <p class="testimonial-quote">
+              Dinesh demonstrated exceptional engineering and organizational capabilities organizing the GenAI Hackathon. He single-handedly kept systems online and built a highly complex local LLM system that impressed the judges.
+            </p>
+            <div class="testimonial-author">Department Faculty Advisor</div>
+            <div class="testimonial-role">The American College</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 16. Contact Portal -->
+  <section id="contact" class="reveal-element">
+    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+    <p class="subtitle">Let's discuss full-stack employment, freelancing, or project consulting details.</p>
+    
+    <div class="container contact-grid glass-card">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p style="color:var(--text-secondary); margin-bottom:10px;">Feel free to reach out via email or phone directly. All copy actions copy instantly to your clipboard.</p>
+        
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="contact-text">
+            <h4>Email Address</h4>
+            <p>dineshbalaji26012006@gmail.com</p>
+            <button class="btn btn-secondary" id="copy-email-btn" onclick="copyToClipboard('dineshbalaji26012006@gmail.com', 'copy-email-btn')" style="padding: 4px 8px; font-size: 0.75rem; margin-top:5px;">Copy Email</button>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div class="contact-text">
+            <h4>Phone Number</h4>
+            <p>+91 90253 84170</p>
+            <button class="btn btn-secondary" id="copy-phone-btn" onclick="copyToClipboard('+91 90253 84170', 'copy-phone-btn')" style="padding: 4px 8px; font-size: 0.75rem; margin-top:5px;">Copy Phone</button>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="contact-text">
+            <h4>Location</h4>
+            <p>Chennai / Madurai, Tamil Nadu • Open to relocate PAN Tamil Nadu</p>
+          </div>
+        </div>
+        
+        <div class="map-container">
+          <div class="map-placeholder">
+            <div class="radar-ring radar-ring-1"></div>
+            <div class="radar-ring radar-ring-2"></div>
+            <div class="radar-ring radar-ring-3"></div>
+            <div class="radar-core"></div>
+            <div class="radar-line"></div>
+            <p style="font-size: 0.85rem; margin-top: 12px;">Chennai / Madurai radar tracker ACTIVE • Ready for PAN Tamil Nadu moves</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form-wrapper">
+        <h3>Send Message</h3>
+        <form id="contact-form">
+          <div class="form-group" style="margin-bottom: 20px;">
+            <input type="text" name="name" placeholder="Your Name" required aria-label="Your name">
+          </div>
+          <div class="form-group" style="margin-bottom: 20px;">
+            <input type="email" name="email" placeholder="Your Email" required aria-label="Your email">
+          </div>
+          <div class="form-group" style="margin-bottom: 20px;">
+            <textarea name="message" placeholder="Project details or message..." required aria-label="Your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content:center;">Send Message</button>
+          <div class="form-feedback" id="form-feedback" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keyboard Shortcut Tooltip Panel overlay -->
+  <div class="keyboard-shortcuts-helper" aria-hidden="true">
+    <span>💡 Search: <kbd class="shortcut-kbd">/</kbd></span>
+    <span>•</span>
+    <span>AI Chat: <kbd class="shortcut-kbd">Ctrl+K</kbd></span>
+    <span>•</span>
+    <span>Close modal: <kbd class="shortcut-kbd">ESC</kbd></span>
+  </div>
+
+  <!-- Floating Audio Waveform Indicator -->
+  <div class="audio-controller" id="audio-waveform-container" aria-hidden="true">
+    <div class="audio-waveform">
+      <div class="waveform-bar"></div>
+      <div class="waveform-bar"></div>
+      <div class="waveform-bar"></div>
+      <div class="waveform-bar"></div>
+    </div>
+  </div>
+
+  <!-- Floating AI Chat Assistant Interface -->
+  <div class="ai-chat-widget" id="ai-chat-widget">
+    <div class="glass-card ai-chat-box">
+      <div class="ai-chat-header">
+        <div class="ai-chat-title">
+          <h4>Dinesh AI Assistant</h4>
+          <span>Online</span>
+        </div>
+        <button id="ai-chat-close" style="background:none; border:none; color:#5f6368; font-size:1.4rem; cursor:pointer;" aria-label="Close chat">×</button>
+      </div>
+      <div class="ai-chat-messages" id="ai-chat-messages" role="log" aria-live="polite">
+        <div class="chat-bubble ai">
+          Hi! Ask me anything about Dinesh's skills, qualifications, work experience, or achievements.
+        </div>
+      </div>
+      <div class="chat-suggestions">
+        <button class="suggestion-btn" data-prompt="What are his core technical skills?">Skills</button>
+        <button class="suggestion-btn" data-prompt="Show major projects">Projects</button>
+        <button class="suggestion-btn" data-prompt="Tell me about his internships">Internships</button>
+        <button class="suggestion-btn" data-prompt="How to contact him?">Contact Info</button>
+      </div>
+      <div class="ai-chat-input-wrapper">
+        <input type="text" id="ai-chat-input" placeholder="Type a question..." aria-label="Type message to AI assistant">
+      </div>
+    </div>
+    
+    <button class="ai-chat-btn" id="ai-chat-toggle" aria-label="Open AI chat assistant">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    </button>
+  </div>
+
+  <!-- Back to Top button -->
+  <button class="back-to-top" id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Scroll back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo" style="margin:0; font-size: 1.8rem; font-weight: 800;">D.B.K</a>
+        <p>
+          Full Stack Developer specializing in MERN stack, secure PHP/SQL backends, and offline local LLM architectures.
+        </p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills Directory</a></li>
+          <li><a href="#projects">Case Studies</a></li>
+          <li><a href="#experience">Work Experience</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact-col">
+        <h4>Connect</h4>
+        <ul>
+          <li>📍 Chennai / Madurai, TN</li>
+          <li>📧 <a href="mailto:dineshbalaji26012006@gmail.com">dineshbalaji26012006@gmail.com</a></li>
+          <li>📞 +91 90253 84170</li>
+        </ul>
+      </div>
+      <div class="footer-availability-col">
+        <h4>Availability</h4>
+        <ul>
+          <li>Remote • Hybrid • On-site</li>
+          <li>Open to relocate PAN Tamil Nadu</li>
+          <li>Ready for full-time, freelance, and contract work</li>
+        </ul>
+      </div>
+      <div class="footer-social-col">
+        <h4>Social Profiles</h4>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/dineshbalajik26" target="_blank" class="btn-icon" aria-label="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com/dines-hbal-aji" target="_blank" class="btn-icon" aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          </a>
+        </div>
+        <p class="footer-note">Open to relocate PAN Tamil Nadu</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>
+        &copy; 2026 Dinesh Balaji K. All rights reserved. Made with ❤️ in Tamil Nadu.
+      </p>
+      <div>
+        <span>Status: <b style="color: var(--success);">Available for Opportunities</b></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Smooth scroll darkroom-engineering Lenis CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.9/dist/lenis.min.js"></script>
+  <!-- Script logic -->
+  <script src="script.js"></script>
+</body>
+</html>
